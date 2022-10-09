@@ -51,7 +51,7 @@ img {
 }
 
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container {
@@ -249,7 +249,7 @@ img {
 }
 
 .name-container {
-    padding: 30px 0;
+    padding: 30px;
 }
 
 .footer {
@@ -260,6 +260,7 @@ img {
 .footer-logo{
     color: var(--main-white);
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .contacts {
@@ -267,11 +268,16 @@ img {
     line-height: 1.71;
     color: var(--sub-white);
     font-style: normal;
+    margin-top: 20px;
 }
 
 .footer-link {
     text-decoration: none;
     color:inherit;
+}
+
+.contacts-item:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .address {
@@ -339,7 +345,7 @@ img {
 .descr-container {
     margin: 0;
     border: 1px solid #EEEEEE;
-    padding: 20px 0 20px 24px;
+    padding: 20px 15px 20px 24px;
 }
 
 .portfolio-card:not(:nth-child(3n)) {
